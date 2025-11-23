@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Senha</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Gerador de Senha</h1>
+        <p class="subtitulo">Crie senhas seguras de forma rápida!</p>
+    </header>
+
+    <section>
+        <div class="caixa-senha">
+            <input type="text" id="campoSenha" readonly>
+            <button id="btnGerar">Gerar</button>
+            <button id="btnCopiar">Copiar</button>
+        </div>
+
+        <div class="card">
+            <h2>Personalize sua senha</h2>
+
+            <label for="tamanho">Quantidade de caracteres</label>
+            <input type="number" id="tamanho" min="4" max="40" value="10">
+
+            <div class="opcao">
+                <span>Letras minúsculas</span>
+                <input type="checkbox" id="chkMinusculas" checked>
+            </div>
+
+            <div class="opcao">
+                <span>Letras maiúsculas</span>
+                <input type="checkbox" id="chkMaiusculas" checked>
+            </div>
+
+            <div class="opcao">
+                <span>Números</span>
+                <input type="checkbox" id="chkNumeros" checked>
+            </div>
+
+            <div class="opcao">
+                <span>Símbolos</span>
+                <input type="checkbox" id="chkSimbolos" checked>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; LisaRios</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
