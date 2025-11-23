@@ -1,35 +1,53 @@
-🔐 Gerador de Senhas
+# 🔐 Gerador de Senhas
 
-Um gerador de senhas moderno e personalizável desenvolvido em HTML, CSS e JavaScript.
+Um gerador de senhas moderno e personalizável desenvolvido em **HTML, CSS e JavaScript**.  
 Permite criar senhas fortes com diferentes combinações de caracteres e copiar com apenas um clique.
 
-🚀 Funcionalidades
+---
 
-Geração de senhas aleatórias e seguras
+## 🚀 Funcionalidades
 
-Escolha de:
+- Geração de senhas aleatórias e seguras  
+- Personalização completa:
+  - Quantidade de caracteres  
+  - Números  
+  - Símbolos  
+  - Letras maiúsculas  
+  - Letras minúsculas  
+- Botão para copiar a senha  
+- Interface centralizada e moderna  
 
-Quantidade de caracteres
+---
 
-Números
+## 🛠️ Tecnologias utilizadas
 
-Símbolos
+- **HTML5**  
+- **CSS3**  
+- **JavaScript (ES6+)**
 
-Letras maiúsculas
+---
 
-Letras minúsculas
+## 📁 Estrutura do projeto
 
-Copiar senha automaticamente para área de transferência
+```
+/
+├── geradordesenha.html
+├── style.css
+└── script.js
+```
 
-Layout moderno e centralizado
+---
 
-🛠️ Tecnologias utilizadas
+## 📌 Melhorias futuras
 
-HTML5
+- Tema claro/escuro  
+- Barra de força da senha  
+- Gerador automático ao mudar opções  
+- Versão em React ou Node.js  
 
-CSS3
+---
 
-JavaScript
+## 👩‍💻 Autora
 
-📁 Estrutura do projeto
+Projeto desenvolvido por **Lísa Rios**.
 
