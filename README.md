@@ -24,7 +24,7 @@ Praticar manipulação do DOM, lógica de programação, eventos e criação de 
 3. Clique em **Copiar** para enviar a senha para a área de transferência  
 
 ## 📦 Execução
-Basta abrir o arquivo `index.html` no navegador.
+Basta abrir o arquivo `geradordesenha.html` no navegador.
 
 ---
 
